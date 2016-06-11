@@ -1,0 +1,128 @@
+/*Feuille de style n°1 */
+
+.corp{
+	background-image: url(../Images/wotr-site.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+#Entetehaute{
+	position: fixed;
+	justify-content: flex-end;
+	display: flex;
+	background-color: #575757;
+	width: 100%;
+	height: 40px;
+	top: 0;
+
+}
+
+.Entete{
+	height: 250px;
+	width: 100%;
+	padding-top: 40px;
+	position: relative;
+	top: 0;
+	background-color: #373737;
+}
+
+.Barrediviser{
+	list-style-type: none;
+
+
+}
+
+.Connection{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.Connection li a{
+	display: inline-block;
+	height: 40px;
+	width: 160px;
+}
+
+.Element:nth-child(2){
+	background-color: yellow;
+	width:50%;
+
+}
+
+.Element:nth-child(1){
+	width:25%;
+	background-color: red;
+
+}
+
+.Element:nth-child(3){
+	width:25%;
+	background-color: blue;
+
+}
+
+#Navigateur{
+	background-color: #575757;
+	width: 100%;
+	height: 40px;
+	margin-bottom: -40px;
+	top: 40px;
+	box-shadow: 0 2px 3px rgba(78, 131, 199, 0.5);
+
+
+}
+
+.FixeNavigateur{
+	z-index: 150;
+	width: 100%;
+	position: fixed;
+
+}
+
+
+.Menunavigation{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.Menunavigation li{
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	width: 150px;
+	margin: 0 -2px 0 0;
+}
+
+.Menunavigation li a{
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	width: inherit;
+	height: inherit;
+	border: 1px solid #fff;
+}
+
+.Menunavigation li:hover a{
+	background-color: blue;
+}
+
+.Menunavigation li .dropdown{
+	display: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.Introduction,.Titre1{
+	padding: 75px 50px 50px;
+
+}
+
+.Pied{
+	
+}
